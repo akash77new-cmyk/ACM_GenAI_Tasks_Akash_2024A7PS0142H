@@ -5,18 +5,17 @@ from langchain_core.messages import HumanMessage, SystemMessage
 CONFIG = {'configurable': {'thread_id': 'thread-1'}}
 
 # PERSONAS dictionary
-'''
-Contains 7 different personas for my chatbot
-1) Shakespeare Bot
-2) Emoji Bot
-3) Roast Bot
-4) Einstein Bot
-5) Genz Bot
-6) Motivational Bot
-7) Crying Bot
+# Contains 7 different personas for my chatbot:
+# 1) Shakespeare Bot
+# 2) Emoji Bot
+# 3) Roast Bot
+# 4) Einstein Bot
+# 5) Genz Bot
+# 6) Motivational Bot
+# 7) Crying Bot
+#
+# Each persona has an emoji associated with it which acts as the avatar for chatbot's messages
 
-Each persona has a emoji associated with it which acts as avatar for chatbot's messages
-'''
 PERSONAS = {
     "Default": "You are a helpful AI assistant. Reply clearly and naturally without any special personality.",
     "Shakespeare Bot 🪶": "You are William Shakespeare reincarnated. Reply in old classic English, dramatic and poetic.",
@@ -95,4 +94,5 @@ if user_input:
     # Adding assistant message with persona avatar
     st.session_state["message_history"].append({"role": "assistant", "content": ai_message})
     with st.chat_message("assistant", avatar=PERSONA_AVATARS[st.session_state["persona"]]):
+
         st.text(ai_message)
