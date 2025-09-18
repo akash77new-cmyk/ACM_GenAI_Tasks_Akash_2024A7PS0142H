@@ -87,14 +87,14 @@ Press enter key, and it will redirect you to chatbot (streamlit UI) in your Defa
 I have attached some images as well, make sure you get the exact same streamlit UI  
 
 ## Some Important Notes -- Must Read  
-### Start delay: After step5, you may face a delay(10-15 seconds) before you finally see the streamlit chatbot UI.  
-### First reply delay: It is due to API Integration needed, second reply onwards you will have no delay at all.  
-### Persona not selected: Sometimes persona x doesn't gets changed to persona y, just select persona x again from dropdown.  
-### Internet Required: Make sure you have a proper internet connection.  
-### Avatars: Each persona has an emoji avatar displayed next to its messages.  
-### Persona Switching: You can change the persona at any time using the dropdown.  
-### Do not share your .env file publicly — it contains your private API key.  
-### The chatbot maintains message history/memory only during the current session.  
+#### Start delay: After step5, you may face a delay(10-15 seconds) before you finally see the streamlit chatbot UI.  
+#### First reply delay: It is due to API Integration needed, second reply onwards you will have no delay at all.  
+#### Persona not selected: Sometimes persona x doesnt gets changed to persona y, just select persona x again from dropdown.  
+#### Internet Required: Make sure you have a proper internet connection.  
+#### Avatars: Each persona has an emoji avatar displayed next to its messages.  
+#### Persona Switching: You can change the persona at any time using the dropdown.  
+#### Do not share your .env file publicly — it contains your private API key.  
+#### The chatbot maintains message history/memory only during the current session.  
 
 ## Enjoy chatting with Akash's 7 Persona Chatbot and explore all its personalities!  
 
