@@ -6,8 +6,8 @@ Following files of this repository are related to this task:
 1)frontend.py (contains frontend code of chatbot)  
 2)backend.py (contains backend code of chatbot)  
 3)chatbot_requirements.txt (contains all the required libraries to be installed)  
-4)chatbot_working1.png (image related to chatbot's working, final product!)  
-5)chatbot_working2.png (same purpose as above)  
+4)chatbot_working1.jpg (image related to chatbot's working, final product!)  
+5)chatbot_working2.jpg (same purpose as above)  
 
 ** Short Overview **  
 
