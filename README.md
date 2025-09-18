@@ -145,10 +145,9 @@ For each experiment, the notebook provides:
 
 ## Instructions : How to run and see results
 
-1. Open `ACM_task2.ipynb` in VsCode or Jupyter Notebook.
-2. Run cells sequentially from top to bottom.
-3. After all experiments finish, outputs will be saved in `outputs_fastmode/`.
-4. Though I have provided all the outputs I got in this repo only.
+1. Open `ACM_task2.ipynb` in VsCode or Jupyter Notebook.  
+2. Run cells sequentially from top to bottom.  
+3. Though I have provided all the outputs I got in this repo only.  
 
 ### Outputs I got: (Also included as form of images in the repo, and present in ACM_task2.ipynb file as well)
 
