@@ -116,3 +116,76 @@ Do not share your .env file publicly — it contains your private API key.
 The chatbot maintains message history/memory only during the current session.  
 
 Enjoy chatting with Akash's 7 Persona Chatbot and explore all its personalities!  
+
+
+Task2 -- Image Classifier on CIFAR-10 dataset -- README
+# CIFAR-10 Image Classification Project (PyTorch)
+
+## Overview
+
+I have build an image classifier for the CIFAR-10 dataset using PyTorch. It demonstrates **training from scratch using a CNN (TinyVGG)** and **fine-tuning a pre-trained model (ResNet18)**. The notebook includes experiments both with and without **data augmentation** and provides a **comparative analysis** of all models.
+
+Classes (10): airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck
+
+## Prerequisites
+1) Python 3.10 or above must be installed  
+2) A code editor which can run .ipynb files (VsCode is preferred)
+
+## Requirements
+
+Required libraries include:
+
+* torch
+* torchvision
+* matplotlib
+* scikit-learn
+* numpy
+* pandas
+  Just type pip install -r task2_requirements.txt on your terminal in VsCode.
+
+## Experiments Performed
+
+1. **TinyVGG (from scratch)**
+
+   * Without augmentation
+   * With augmentation
+
+2. **ResNet18 (fine-tuned)**
+
+   * Without augmentation
+   * With augmentation
+
+For each experiment, the notebook provides:
+
+* Epoch-wise training/validation loss & accuracy
+* Loss & accuracy plots
+* Confusion matrix
+* Final summary table comparing all experiments
+
+## Instructions : How to run and see results
+
+1. Open `ACM_task2.ipynb` in VsCode or Jupyter Notebook.
+2. Run cells sequentially from top to bottom.
+3. After all experiments finish, outputs will be saved in `outputs_fastmode/`.
+4. Though I have provided all the outputs I got in this repo only.
+
+### Outputs I got
+
+* Confusion matrices: `tinyvgg_noaug_cm.png`, `tinyvgg_aug_cm.png`, `resnet_noaug_cm.png`, `resnet_aug_cm.png`
+* Loss & accuracy plots: `tinyvgg_noaug_history.png`, `tinyvgg_aug_history.png`, `resnet_noaug_history.png`, `resnet_aug_history.png`
+* Summary table: `summary_results.csv` (its screenshot from the notebook)
+
+
+## Few Important Notes
+
+* I have used 4 epochs, BATCH\_SIZE=64 (CPU-friendly, \~1.5 hours total runtime)
+* The pre-trained ResNet18 model may show warnings about deprecated `pretrained=True`; these can be safely ignored.
+* You can increase epochs for more accurate results, but runtime will increase (around 4 hours for 12 epochs)
+
+## Author
+
+Akash
+
+## Date
+
+2025-09-18
