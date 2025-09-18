@@ -185,7 +185,3 @@ For each experiment, the notebook provides:
 ## Author
 
 Akash
-
-## Date
-
-2025-09-18
