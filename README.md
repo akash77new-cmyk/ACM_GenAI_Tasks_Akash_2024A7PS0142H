@@ -129,7 +129,7 @@ Classes (10): airplane, automobile, bird, cat, deer, dog, frog, horse, ship, tru
 
 ## Prerequisites
 1) Python 3.10 or above must be installed  
-2) A code editor which can run .ipynb files (VsCode is preferred)
+2) A code editor which can run .ipynb files (VsCode or Jupyter Notebook is preferred)
 
 ## Requirements
 
