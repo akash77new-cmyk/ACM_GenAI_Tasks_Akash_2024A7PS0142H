@@ -97,6 +97,8 @@ The chatbot maintains message history/memory only during the current session.
 
 Enjoy chatting with Akash's 7 Persona Chatbot and explore all its personalities!  
 
+
+
 Task2 -- Image Classifier on CIFAR-10 dataset -- README  
 # CIFAR-10 Image Classification Project (PyTorch)
 
@@ -148,18 +150,18 @@ For each experiment, the notebook provides:
 3. After all experiments finish, outputs will be saved in `outputs_fastmode/`.
 4. Though I have provided all the outputs I got in this repo only.
 
-### Outputs I got
+### Outputs I got: (Also included as form of images in the repo, and present in ACM_task2.ipynb file as well)
 
-* Confusion matrices: `tinyvgg_noaug_cm.png`, `tinyvgg_aug_cm.png`, `resnet_noaug_cm.png`, `resnet_aug_cm.png`
-* Loss & accuracy plots: `tinyvgg_noaug_history.png`, `tinyvgg_aug_history.png`, `resnet_noaug_history.png`, `resnet_aug_history.png`
-* Summary table: `summary_results.csv` (its screenshot from the notebook)
+* Confusion matrices: `tinyvgg_noaug_confusion_matrix.jpg`, `tinyvgg_aug_confusion_matrix.png`, `resnet_noaug_confusion_matrix.jpg`, `resnet_aug_confusion_matrix.jpg`
+* Loss & accuracy plots: `tinyvgg_noaug_data.jpg`, `tinyvgg_aug_data.jpg`, `resnet_noaug_data.jpg`, `resnet_aug_data.jpg`
+* Summary table: `summary_results.csv` (its present in ACM_task2.ipynb file or the notebook)
 
 
 ## Few Important Notes
 
-* I have used 4 epochs, BATCH\_SIZE=64 (CPU-friendly, \~1.5 hours total runtime)
+* I have used 4 epochs, BATCH\_SIZE=64 (CPU-friendly, around 1.5 hours total runtime)
 * The pre-trained ResNet18 model may show warnings about deprecated `pretrained=True`; these can be safely ignored.
-* You can increase epochs for more accurate results, but runtime will increase (around 4 hours for 12 epochs)
+* We can increase epochs for more accurate results, but runtime will increase (around 4 hours for 12 epochs)
 
 ## Author
 
