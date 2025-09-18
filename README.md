@@ -27,7 +27,8 @@ Each persona has its own **emoji avatar** that appears next to its messages in t
 
 The chatbot maintains conversation history during the session and allows users to switch personas using a dropdown menu in the Streamlit UI.
 Thus, this chatbot has memory factor implemented within it.  
-
+  
+  
 **User Manual -- Must Read**  
 
 Prerequisites  
@@ -41,8 +42,9 @@ Prerequisites
 Step1 -- Download/copy my frontend and backend codes.  
 Download/copy python codes of frontend.py and backend.py in your machine. Make sure both the files are in same folder.
 Open that folder in VsCode.  
-
-
+  
+  
+  
 Step2 -- Download required python libraries  
 You need to download following python libraries:  
 streamlit  
@@ -58,9 +60,9 @@ In case your machine has none of the above libraries already installed, just typ
 (make sure chatbot_requirements.txt is also in the same folder that of frontend.py and backend.py)
 to download all the above libraries.
 If by chance you are still getting wavy green lines under any library name, just install that library in the same way mentioned above.
-
-
-
+  
+  
+  
 Step3 -- Creating google gemini API key  
 In order to interact with my chatbot, you need to have a google gemini API key, here is how to create one:  
 
@@ -74,8 +76,9 @@ If you are having any difficulties, just type Google AI Studio in your browser.
 Go to first link, click on Get API key (mostly on the bottom left corner)  
 Click on +Create API Key  
 Again, you will get a long string of random characters as your google gemini API key, copy that string in your system.  
-
-
+  
+  
+  
 Step4 -- Integrating gemini API key, creating .env file  
 This is a very crucial step, as the chatbot won't function without API Integration  
 In VsCode, open the folder in which you have both the python files, frontend.py and backend.py.  
@@ -86,9 +89,9 @@ GOOGLE_API_KEY=paste_your_API_key_here
 Make sure there are no spaces, no double quotes, and the format is exactly like above specified.  
 Eg. If your created gemini API key is abcd1234, your .env file should contain  
 GOOGLE_API_KEY=abcd1234  
-
-
-
+  
+  
+  
 Step 5 -- How to run the chatbot (one liner)  
 Once your folder has frontend.py, backend.py and above .env file as well, and all the required libraries are installed.  
 Just open up your terminal in vs code and write:  
@@ -97,8 +100,9 @@ python -m streamlit run frontend.py
 
 Press enter key, and it will redirect you to chatbot (streamlit UI) in your Default browser.  
 I have attached some images as well, make sure you get the exact same streamlit UI  
-
-
+  
+  
+  
 ** Some Important Notes **  
 
 Avatars: Each persona has an emoji avatar displayed next to its messages.  
