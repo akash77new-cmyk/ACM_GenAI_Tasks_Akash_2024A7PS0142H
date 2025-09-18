@@ -3,9 +3,11 @@ This repository contains solutions to both the GenAI tasks
 
 Task1 -- Akash's 7 Persona Chatbot -- README  
 Following files of this repository are related to this task:  
-1)frontend.py   
-2)backend.py  
-3)chatbot_requirements.txt  
+1)frontend.py (contains frontend code of chatbot)  
+2)backend.py (contains backend code of chatbot)  
+3)chatbot_requirements.txt (contains all the required libraries to be installed)  
+4)chatbot_working1.png (image related to chatbot's working, final product!)
+4)chatbot_working2.png (same purpose as above)  
 
 ** Short Overview **  
 
