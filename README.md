@@ -122,7 +122,7 @@ Required libraries include:
 * matplotlib
 * scikit-learn
 * numpy
-* pandas
+* pandas  
   Just type pip install -r task2_requirements.txt on your terminal in VsCode.
 
 ## Experiments Performed
